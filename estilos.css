@@ -1,13 +1,18 @@
 *{
     margin:0;
 }
+
+#header{
+    font-size: 30px;
+}
+
 .titulo{
     background-color: aqua;
     opacity: 50%;
 }
 #titulo-texto{
     text-align: center;
-    color:yellow;
+    color:red;
     opacity: 100%;
 }
 
@@ -20,10 +25,7 @@
     padding: 10px;
     background-color: white;
 }
-#header{
-    font-size: 30px;
-    background-color: navy;
-}
+
 #navbar{
     display:flex;
     justify-content:flex-end;
@@ -66,4 +68,4 @@ img{
 }
 .tarjeta-foto:hover{
     opacity:100%;
-}
+} 

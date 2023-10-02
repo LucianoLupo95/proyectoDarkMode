@@ -1,13 +1,19 @@
-// let boton = document.querySelector("#toggle-dark-mode");
-// let body = document.querySelector("body");
-// let darkMode = false;
-// boton.addEventListener("click",()=>{
-//     if (darkMode == false){
-//         darkMode = true;
-//         body.style.backgroundColor = "black";
-//     }else{
-//         darkMode = false;
-//         body.style.backgroundColor = "white";
-//     }
-// })
-<button id="toggle-dark-mode">Apretame</button>
+let boton = document.querySelector("#tema");
+let body = document.querySelector("body");
+let darkMode = false;
+boton.addEventListener("click",()=>{
+    if (darkMode == false){
+        body.style.backgroundColor = "black";
+        darkMode = true;
+    }else{
+        body.style.backgroundColor = "white";
+        darkMode = false;
+    }
+})
+
+let textos = document.querySelectorAll(".titulo-fotos")
+
+        // body.style.backgroundColor = "black";
+        // for (let i = 0; i < textos.length; i++){
+        //     textos[i].style.color = "white";
+        // }
